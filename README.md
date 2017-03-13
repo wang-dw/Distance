@@ -11,6 +11,6 @@ Simple ranging sensor using the SunFounder HC-SR04 Ultrasonic Module, OSEPP 16x2
 
 **Sources:**
 
-https://www.arduino.cc/en/Tutorial/Ping
-https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay
-http://www.instructables.com/id/Arduino-LCD-Project-for-Measuring-Distance/
+  https://www.arduino.cc/en/Tutorial/Ping
+  https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay
+  http://www.instructables.com/id/Arduino-LCD-Project-for-Measuring-Distance/
