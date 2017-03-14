@@ -6,7 +6,7 @@ const int trigPin = 12;
 const int echoPin = 13;
 
 void setup() {
-  lcd.begin(2, 12);
+  lcd.begin(16, 2); //2,12
   // initialize serial communication:
   Serial.begin(9600);
 }
@@ -35,7 +35,7 @@ void loop() {
   inches = microsecondsToInches(duration);
   cm = microsecondsToCentimeters(duration);
 
-  if(duration < 11600){
+  if(duration < 23200){ //23200 = 4m
     Serial.print(inches);
     Serial.print("in, ");
     Serial.print(cm);
