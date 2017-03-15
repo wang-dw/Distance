@@ -6,7 +6,7 @@ const int trigPin = 12;
 const int echoPin = 13;
 
 void setup() {
-  lcd.begin(16, 2); //2,12
+  lcd.begin(16, 2);
   // initialize serial communication:
   Serial.begin(9600);
 }
